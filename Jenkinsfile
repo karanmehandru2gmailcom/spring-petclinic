@@ -14,10 +14,7 @@ pipeline {
         DEV_TEAM = 'karanmehandru2@gmail.com'
         BUILD_INFO = "Job_Name: ${env.JOB_NAME}\nBuild_Number: ${env.BUILD_NUMBER}"
     }
-    tools {
-      jdk "java_home"
-      maven "maven_home"
-    }
+   
     options
     {
         buildDiscarder(logRotator(numToKeepStr: '5'))
