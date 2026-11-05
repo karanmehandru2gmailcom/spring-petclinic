@@ -11,7 +11,7 @@ pipeline {
     environment
     {
         APP_NAME = "Spring-petclinic"
-        DEV_TEAM = 'akshatha.1si20et003@gmail.com'
+        DEV_TEAM = 'karanmehandru2@gmail.com'
         BUILD_INFO = "Job_Name: ${env.JOB_NAME}\nBuild_Number: ${env.BUILD_NUMBER}"
     }
     tools {
@@ -86,3 +86,4 @@ DevOps Team""",
             cleanWs()
         }
     }
+}
