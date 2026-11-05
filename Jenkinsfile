@@ -56,7 +56,7 @@ DevOps Team""",
             from: '', 
             replyTo: '', 
             subject: """Jenkins Build Success: ${env.APP_NAME}""", 
-            to: 'akshatha.1si20et003@gmail.com'
+            to: 'karanmehandru2@gmail.com'
         }
         failure
         {
@@ -78,7 +78,7 @@ DevOps Team""",
             from: '', 
             replyTo: '', 
             subject: """Jenkins Build Failed: ${env.APP_NAME}""", 
-            to: 'akshatha.1si20et003@gmail.com'
+            to: 'karanmehandru2@gmail.com'
         }
         always
         {
